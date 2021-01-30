@@ -8,7 +8,9 @@ namespace Sirh3e.Pattern.Pipeline.Pipelines.Converter.Handles
     {
         public string Process(string input)
         {
-            return UInt64.Parse(input, NumberStyles.HexNumber).ToString();
+            _ = input ?? throw new ArgumentNullException(nameof(input));
+
+            return ulong.Parse(input, NumberStyles.HexNumber).ToString();
         }
     }
 }
