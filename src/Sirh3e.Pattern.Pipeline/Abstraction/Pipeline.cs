@@ -9,7 +9,7 @@ namespace Sirh3e.Pattern.Pipeline.Abstraction
         public TOutput Process(TInput input)
         {
             _ = input ?? throw new ArgumentNullException(nameof(input));
-            _ = PipelineHandlers ?? throw new ArgumentNullException(nameof(input));
+            _ = PipelineHandlers ?? throw new ArgumentNullException(nameof(PipelineHandlers));
 
             return PipelineHandlers(input);
         }
