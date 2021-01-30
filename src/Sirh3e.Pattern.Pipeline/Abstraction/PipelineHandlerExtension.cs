@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sirh3e.Pattern.Pipeline
+namespace Sirh3e.Pattern.Pipeline.Abstraction
 {
     public static class PipelineHandlerExtension
     {

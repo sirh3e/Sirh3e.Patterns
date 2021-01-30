@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sirh3e.Pattern.Pipeline
+namespace Sirh3e.Pattern.Pipeline.Abstraction
 {
     public abstract class Pipeline<TInput, TOutput> : IPipelineHandler<TInput, TOutput>
     {

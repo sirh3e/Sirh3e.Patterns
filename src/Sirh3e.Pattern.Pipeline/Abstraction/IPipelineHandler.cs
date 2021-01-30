@@ -1,4 +1,4 @@
-﻿namespace Sirh3e.Pattern.Pipeline
+﻿namespace Sirh3e.Pattern.Pipeline.Abstraction
 {
     public interface IPipelineHandler<in TInput, out TOutput>
     {

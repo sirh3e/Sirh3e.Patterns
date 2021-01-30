@@ -1,4 +1,7 @@
-﻿namespace Sirh3e.Pattern.Pipeline.Test.Pipeline.Converter
+﻿using Sirh3e.Pattern.Pipeline.Abstraction;
+using Sirh3e.Pattern.Pipeline.Pipelines.Converter.Handles;
+
+namespace Sirh3e.Pattern.Pipeline.Pipelines.Converter
 {
     public class ConverterPipeline : Pipeline<string, int>
     {
