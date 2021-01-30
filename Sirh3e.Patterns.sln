@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirh3e.Pattern.Pipeline", "src\Sirh3e.Pattern.Pipeline\Sirh3e.Pattern.Pipeline.csproj", "{426049B7-2744-486E-A507-258745B02071}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirh3e.Sandbox", "src\Sirh3e.Sandbox\Sirh3e.Sandbox.csproj", "{E4CC0305-00A6-4A07-8155-038F46204FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{426049B7-2744-486E-A507-258745B02071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{426049B7-2744-486E-A507-258745B02071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{426049B7-2744-486E-A507-258745B02071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CC0305-00A6-4A07-8155-038F46204FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CC0305-00A6-4A07-8155-038F46204FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CC0305-00A6-4A07-8155-038F46204FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CC0305-00A6-4A07-8155-038F46204FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
