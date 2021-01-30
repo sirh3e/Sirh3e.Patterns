@@ -1,7 +1,6 @@
 ﻿using System;
-using Sirh3e.Pattern.Pipeline;
 
-namespace Sirh3e.Sandbox.Pipeline
+namespace Sirh3e.Pattern.Pipeline.Test.Pipeline.Converter
 {
     public class ConverterPipelineHandler : IPipelineHandler<string, int>
     {

@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\test\Sirh3e.Pattern.Pipeline.Test\Sirh3e.Pattern.Pipeline.Test.csproj" />
       <ProjectReference Include="..\Sirh3e.Pattern.Pipeline\Sirh3e.Pattern.Pipeline.csproj" />
     </ItemGroup>
 
